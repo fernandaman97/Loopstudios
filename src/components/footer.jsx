@@ -3,13 +3,16 @@ function Footer() {
   return (
     <footer>
         <div>
+          <div>
             <img src="/images/svg/logo.svg" alt="logo" />
-
+          </div>
+          <div className='links'>
             <a>About</a>
             <a>Careers</a>
             <a>Events</a>
             <a>Products</a>
             <a>Support</a>
+          </div>
         </div>
 
         <div>
