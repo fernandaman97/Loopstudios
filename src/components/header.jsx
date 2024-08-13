@@ -8,6 +8,11 @@ const Header = () => {
         <span className="logo">
           <img src="./public/images/svg/logo.svg" alt="logo" />
         </span>
+        <div class="menu-toggle" id="menu-toggle">
+      <span class="icon-hamburger">
+        <img src="./public/images/svg/icon-hamburger.svg" alt="" />
+      </span>
+    </div>
         <ul className="navbar__menu">
           <li className="navbar__menu-item">
             <a href="#home">About</a>

@@ -15,8 +15,7 @@
     right: 70px;
     font-size: 1.2rem;
     padding: 1.7rem;
-
-    
+    z-index: 2;
 }
 
 .section-title{
@@ -28,6 +27,7 @@
     display: flex;
     position: relative;
     left: 70px;
+    z-index: 1;
 }
 
 // .section1{
@@ -44,3 +44,13 @@
 //     position: absolute;
 //     }
 // }
+
+@media (max-width: 768px) {
+    .background-element {
+      z-index: 2;
+    }
+  
+    .foreground-element {
+      z-index: 1; 
+    }
+  }
