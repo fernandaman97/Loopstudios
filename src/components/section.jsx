@@ -11,8 +11,7 @@ const Section = () => {
       />
       </div>
       <div className="leader-VR">
-        <h2>THE LEADER IN INTERACTIVE VR</h2>
-        <br />
+        <h2 className="section-title">THE LEADER IN INTERACTIVE VR</h2>
         <p>
           Founded in 2011, Loopstudios has been producing world-class virtual
           reality projects for some of the best companies around the globe. Our
