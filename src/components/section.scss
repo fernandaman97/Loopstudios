@@ -1,11 +1,39 @@
+.section1{
+    display: flex;
+    position: relative;
+
+}
+
 .leader-VR{
     background-color: white;
     width: 20rem;
     text-align: justify;
     position: absolute;
-
+    width: 55%;
+    bottom: 0;
+    right: 0;
+    font-size: 1.2rem;
+    padding: 1.7rem;
 }
+
 
 .image-interactive{
+    display: flex;
     position: relative;
+    left: 70px;
 }
+
+// .section1{
+
+//     &__imageSection1{
+//         display: flex;
+//         position: relative;
+//     }
+
+//     &__leader-VR{
+//     background-color: white;
+//     width: 20rem;
+//     text-align: justify;
+//     position: absolute;
+//     }
+// }

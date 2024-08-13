@@ -3,11 +3,13 @@ import "./section.scss";
 const Section = () => {
   return (
     <section className="section1">
+    <div className="imageSection1">
       <img
         className="image-interactive"
         src="./public/images/jpg/image-interactive.jpg"
         alt=""
       />
+      </div>
       <div className="leader-VR">
         <h2>THE LEADER IN INTERACTIVE VR</h2>
         <br />
